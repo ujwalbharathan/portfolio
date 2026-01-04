@@ -15,11 +15,11 @@ import { MdOutlineCss } from "react-icons/md";
 const about = {
   title: "About me",
   description:
-    "MERN Stack Developer with 2+ years of experience, specializing in front-end development with React and also working with Node.js for back-end tasks. I enjoy creating dynamic and user-friendly web applications. I have strong problem-solving, communication, and teamwork skills. I am experienced in performance optimization, code reviews, and refactoring. I am highly motivated, adaptable, and eager to take on new challenges. I work well both independently and in teams, and I quickly learn new skills.",
+    "MERN Stack Developer with 3+ years of experience, specializing in React and Next.js for frontend development, with experience in Node.js backend support. Skilled in building scalable, high-performance web apps, optimizing code, and maintaining clean, maintainable solutions. Known for problem-solving, collaboration, and a commitment to learning new technologies.",
   info: [
     { fieldName: "Name", fieldValue: "Anaswara Rajesh" },
     { fieldName: "Phone", fieldValue: "(+91) 9961145241" },
-    { fieldName: "Experience", fieldValue: "2+ Years" },
+    { fieldName: "Experience", fieldValue: "3+ Years" },
     { fieldName: "Email", fieldValue: "anaswararajesh45@gmail.com" },
     { fieldName: "Nationality", fieldValue: "Indian" },
     { fieldName: "Languages", fieldValue: "English, Malayalam, Hindi" },
@@ -33,9 +33,14 @@ const experience = {
     "With a strong foundation in full-stack development and hands-on experience in building robust web applications, I have a proven track record of delivering high-quality software solutions. My professional journey includes significant contributions to various projects, utilizing modern technologies and best practices to achieve optimal results.",
   items: [
     {
+      comapany: "Voxbay Solutions, Ernakulam, India",
+      position: "Software Engineer",
+      duration: "Feb 2025- Present",
+    },
+    {
       comapany: "Lanware Solutions, Infopark - Kochi, India",
-      position: "Associate Software Engineer",
-      duration: "Dec 2021- Present",
+      position: "Software Engineer",
+      duration: "Dec 2021- Feb 2025",
     },
     {
       comapany: "Luminar Technolab - Kochi, India",
@@ -134,15 +139,15 @@ const skills = {
   ],
 };
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/ui/tabs";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
+} from "../../components/ui/tooltip";
 
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { ScrollArea } from "../../components/ui/scroll-area";
 import { motion } from "framer-motion";
 const Resume = () => {
   return (

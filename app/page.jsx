@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import Socials from "../components/Socials";
 import Photo from "../components/Photo";
@@ -16,16 +16,11 @@ const Home = () => {
               Hello I'm <br />
               <span className="text-accent">Anaswara Rajesh</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              MERN Stack Developer with 2+ years of experience, proficient in
-              modern technologies such as React, Node.js, Express and MongoDB.
-              Through completing projects and reviews, a strong ability to
-              prioritize tasks and manage time effectively has been developed,
-              ensuring the timely completion of projects and adherence to the
-              highest standards.
+            <p className="max-w-[600px] mb-9 text-white/80">
+MERN Stack Developer with 3+ years of experience, specializing in React and Next.js for frontend development, with experience in Node.js backend support. Skilled in building scalable, high-performance web apps, optimizing code, and maintaining clean, maintainable solutions. Known for problem-solving, collaboration, and a commitment to learning new technologies.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <a href="/files/Anaswara_Rajesh_MERN.pdf" download>
+              <a href="/files/Anaswara_Rajesh.pdf" download>
                 <Button
                   variant="outline"
                   size="lg"

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Nav from "./Nav";
 import MobileNav from './MobileNav';
-import { Button } from "@/components/ui/button"
+import { Button } from "./ui/button"
 
 const Header = () => {
   return (

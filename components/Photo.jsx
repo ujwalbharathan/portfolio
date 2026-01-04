@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Pic from "../components/assets/round4.png";
+import Pic from "../components/assets/profile2.jpg";
 
 const Photo = () => {
   return (
@@ -13,7 +13,7 @@ const Photo = () => {
           transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
         }}
       >
-        <motion.div className="w-[298px] h-[298px] xl:w-[390px] xl:h-[390px] mix-blend-luminosity absolute">
+        <motion.div className="w-[298px] h-[298px] xl:w-[390px] xl:h-[280px] mix-blend-luminosity absolute">
           <Image
             src={Pic}
             priority
@@ -25,15 +25,15 @@ const Photo = () => {
         </motion.div>
 
         <motion.svg
-          className="w-[300px] xl:w-[380px] h-[300px] xl:h-[380px]"
+          className="w-[300px] xl:w-[380px] h-[300px] xl:h-[280px]"
           fill="transparent"
           viewBox="0 0 556 556"
           xmlns="http://www.w3.org/2000/svg"
         >
           <motion.circle
-            cx="283"
-            cy="283"
-            r="250"
+            cx="285"
+            cy="285"
+            r="300"
             stroke="#00ff99"
             strokeWidth="4"
             strokeLinecap="round"

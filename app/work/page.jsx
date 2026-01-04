@@ -9,7 +9,7 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
+} from "../../components/ui/tooltip";
 import Link from "next/link";
 import Image from "next/image";
 import thumbnail from "../../components/assets/project1.png";
@@ -18,6 +18,8 @@ import thumbnail3 from "../../components/assets/project3.jpeg";
 import thumbnail4 from "../../components/assets/project4.jpeg";
 import thumbnail5 from "../../components/assets/project5.jpeg";
 import thumbnail6 from "../../components/assets/project6.png";
+import thumbnail7 from "../../components/assets/project7.png";
+import thumbnail8 from "../../components/assets/project8.png";
 import WorkSliderBtns from "../../components/WorkSliderBtns";
 
 const projects = [
@@ -114,6 +116,28 @@ const projects = [
       "Developed REST APIs for a home automation app using a microservice architecture with Node.js.",
     stack: [{ name: "Node.js" }, { name: "Microservices" }],
     image: thumbnail6,
+    live: "",
+    github: "",
+  },
+  {
+    num: "07",
+    category: "Frontend",
+    title: "Call Management Software",
+    description:
+      "Built and maintained cloud telephony and call management applications using Next.js. Implemented real-time features with Socket.IO, enabling live call updates and event-driven workflows. Integrated secure authentication using NextAuth with session handling and role-based access control.",
+    stack: [{ name: "Next js"},{ name: "Node Js js" }],
+    image: thumbnail7,
+    live: "",
+    github: "",
+  },
+    {
+    num: "08",
+    category: "Frontend",
+    title: "Agent Mobile App",
+    description:
+      "Developed a mobile application using React Native, focusing on UI design, contact import, and media integration.Implemented push notifications to keep users informed of updates and activities",
+    stack: [{ name: "React Native" }],
+    image: thumbnail8,
     live: "",
     github: "",
   },
